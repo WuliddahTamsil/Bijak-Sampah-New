@@ -1,0 +1,50 @@
+# Laravel specific files to ignore
+.env
+.env.*
+!.env.example
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/app/public/*
+bootstrap/cache/*
+tests/
+phpunit.xml
+.phpunit.result.cache
+.editorconfig
+.gitattributes
+.gitignore
+README.md
+THEME_SYSTEM.md
+Homestead.json
+Homestead.yaml
+Thumbs.db
+.DS_Store
+*.log
+
+# Node modules (will be installed during build)
+node_modules/
+
+# Vendor (will be installed during build)
+vendor/
+
+# Build artifacts
+public/build/
+public/hot
+
+# IDE files
+.vscode/
+.idea/
+.nova/
+.fleet/
+.zed/
+.phpactor.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
